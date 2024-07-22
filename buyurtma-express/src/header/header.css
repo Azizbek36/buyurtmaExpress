@@ -1,0 +1,600 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 0px 10px;
+    /* Цвет текста в хедере */
+    z-index: 1198;
+}
+.header-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 0px 10px;
+    /* Цвет текста в хедере */
+    z-index: 1198;
+}
+
+.fa-cart-shopping {
+    color: #fff;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.frtend-header {
+    width: 100%;
+    max-width: 1400px;
+    padding: 15px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-links {
+    display: flex;
+}
+
+.user-actions {
+    color: #Ffff;
+}
+
+.user-actions:first-child {
+    margin-right: 20px;
+    color: #Ffff;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+
+/* Стили для кнопок */
+
+.ad-container {
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
+    height: 200px;
+    width: 100%;
+    background-color: #3498db;
+    border-radius: 20px;
+    /* Замените на цвет вашего выбора */
+    text-align: center;
+    color: #fff;
+    line-height: 200px;
+    font-size: 24px;
+}
+
+.search-container {
+    display: flex;
+    align-self: center;
+    width: 60%;
+    position: relative;
+}
+
+.search-text {
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    outline: none;
+    padding: 25px;
+    font-size: 14px;
+    width: 90%;
+}
+.header-mobile .search-text {
+    border-radius: 15px 0px 0px 15px;
+    border: 2px solid #27ae60;
+    outline: none;
+    padding: 25px;
+    font-size: 14px;
+    width: 90%;
+}
+
+.search-button:hover {
+    background-color: #faf6f6;
+    color: #3498db;
+}
+
+.subsearch {
+    position: absolute;
+    color: #000000;
+    top: 75px;
+    left: 0;
+    width: 90%;
+    border-radius: 10px;
+    background: #ffffff;
+
+    text-align: start;
+}
+
+
+.subsearch-item {
+    margin: 10px 0px;
+    margin-left: 20px;
+    width: 90%;
+    padding: 10px 5px;
+    z-index: 1;
+}
+
+.subsearch-item:hover {
+    cursor: pointer;
+    background-color: #faf6f6;
+    border-radius: 5px;
+}
+
+.logout-button {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.overlay {
+    display: block;
+    /* Показываем модальное окно */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #242424;
+    opacity: .3 !important;
+}
+.overlay-mobil {
+    display: block;
+    /* Показываем модальное окно */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #ffffff;
+   
+}
+
+/* Изменить стиль иконки "икс" */
+input[type="search"]::-webkit-search-cancel-button {
+    color: red;
+    padding: 3px;
+}
+
+
+
+.btn_common {
+    border-radius: 0px 14px 14px 0px;
+    width: 65px;
+    background: #7690da;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-category {
+    cursor: pointer;
+    padding: 24px 0px 24px 32px;
+    height: 100%;
+    background-color: #ffffff;
+    height: 100%;
+    width: 285px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.link-Catalog {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.activeCatigory {
+   background-color: #faf6f6;
+}
+
+.category-title {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar-mobile {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ebebeb;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-mobile a {
+    color: #f2f2f2;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-mobile a img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.navbar-mobile a.active {
+    color: #4CAF50;
+}
+
+.products {
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+.product {
+    margin: 5px 0;
+}
+
+#menu-icon {
+    cursor: pointer;
+    font-size: 34px;
+    position: relative;
+    z-index: 3;
+    margin: 0px 20px;
+}
+
+.icon-mobile-menu {
+    color: #999;
+    font-size: 26px;
+}
+.icon-mobile-menu-active {
+    color: #0921d3;
+}
+
+/* Стили для категорий */
+
+.category-title {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.burger-btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    background: transparent;
+    border: flex;
+    padding: 0;
+    z-index: 10;
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    transition: 0.4s;
+    z-index: 10;
+}
+
+.burger-menu {
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    /* Меню по умолчанию сдвинуто влево за пределы экрана */
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    z-index: 900;
+    /* Добавлен эффект перехода */
+    transition: left 0.5s;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    /* начальный прозрачный цвет */
+    z-index: 1;
+    /* убедитесь, что фон находится выше остальных элементов */
+    transition: background-color 0.3s ease;
+    /* плавное изменение цвета */
+    display: none;
+}
+
+.background.active {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.448);
+    /* черный цвет с непрозрачностью */
+}
+
+.menu-opened {
+    left: 0;
+    /* Открытое меню - изменено значение left на 0 */
+}
+
+.navigetion:hover {
+    background-color: #faf6f6;
+}
+
+.allsubmenu {
+    display: flex;
+    height: 100%;
+}
+
+.type-ctegort {
+    padding: 7px;
+}
+
+.type-ctegort:hover {
+    background-color: #faf6f6;
+}
+
+.sub-opened {
+    margin-left: 2px;
+    width: 285px;
+    color: #000000;
+    list-style-type: none;
+    height: 100%;
+    padding-left: 20px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.submenu {
+    padding: 24px 0 24px 32px;
+}
+
+.category-submenu {
+    cursor: pointer;
+    width: 90%;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+}
+
+
+.submenu h3 {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.submenu div a {
+    color: #000000;
+}
+
+.submenu div:hover {
+    background-color: #faf6f6;
+}
+
+.baсkInCatalog {
+    display: none;
+}
+
+.burger-btn.active div:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.burger-btn.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-btn.active div:nth-child(3) {
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.submenu.active {
+    display: block;
+}
+
+body.menu-open .menu-background {
+    display: block;
+}
+
+body.menu-open {
+    overflow: hidden;
+}
+
+.menu-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1;
+}
+
+#catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+#product-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.arrow {
+    display: none;
+    font-size: 18px;
+}
+
+
+@media(max-width:1024px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 15px;
+        background-color: #ffffff;
+        color: #fff;
+        height: 80px;
+        /* Цвет текста в хедере */
+        z-index: 11;
+    }
+
+    .frtend-header {
+        padding: 0px 15px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .burger-menu {
+        margin-top: 0px;
+        position: fixed;
+        display: none;
+        top: 30px;
+        left: 0%;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 10px;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        color: #000000;
+        z-index: 10;
+        padding-top: 50px;
+        /* Добавлен эффект перехода */
+    }
+
+    .menu-opened {
+        display: block;
+    }
+
+    .arrow {
+        display: block;
+    }
+
+
+    .ad-container {
+        position: relative;
+        top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .search-text {
+        display: flex;
+        padding: 15px;
+        border: none;
+        border-radius: 15px 0px 0px 15px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .search-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logout-button {
+        display: none;
+    }
+
+    .burger-btn {
+        display: none;
+    }
+
+    .icon-links {
+        display: none;
+    }
+
+    .navbar-mobile {
+        height: 60px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #ebebeb;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+    .allsubmenu {
+        display: block;
+    }
+
+    .all-category {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .submenu {
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .baсkInCatalog {
+        display: block;
+    }
+
+    .name-catalog {
+        margin-left: 5px;
+    }
+}
