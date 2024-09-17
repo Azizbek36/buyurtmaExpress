@@ -58,6 +58,354 @@
       "nameSearch": "men_shoes"
     },
     {
+      "nameStor": "Inbazar",
+      "id": "SHOEС0012400",
+      "price": "200",
+      "count": 1,
+      "priceTotal": 200,
+      "salesman": "Ahmadov_Shahboz_16_02_2024",
+      "category": "men",
+      "type": "men_shoes",
+      "name": "Мужские кросовки",
+      "color": [
+        { "color": "Красный", "id": "red" },
+        { "color": "Синий", "id": "blue" },
+        { "color": "Желтый", "id": "yellow" },
+        { "color": "Черный", "id": "black" },
+        { "color": "Зеленый", "id": "green" },
+        { "color": "Фиолетовый", "id": "purple" },
+        { "color": "Оранжевый", "id": "orange" },
+        { "color": "Розовый", "id": "pink" },
+        { "color": "Белый", "id": "white" },
+        { "color": "Серый", "id": "gray" },
+        { "color": "Коричневый", "id": "brown" },
+        { "color": "Бирюзовый", "id": "turquoise" }
+      ],
+      "img": ["shoe_1.jpg", "shoe_2.jpg", "shoe_3.jpg", "shoe_4.jpg"],
+      "colorPprduct": [
+        {"id":"red", "colorImg":"shoe_1.jpg", "img":["shoe_1.jpg","shoe_2.jpg","shoe_3.jpg","shoe_4.jpg","shoe_1.jpg", "shoe_1.jpg","shoe_1.jpg","shoe_1.jpg","shoe_1.jpg"]},
+        {"id":"blue", "colorImg":"shoe_2.jpg", "img":["shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg"]},
+        {"id":"yellow", "colorImg":"shoe_3.jpg", "img":["shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg"]},
+        {"id":"black", "colorImg":"shoe_4.jpg", "img":["shoe_4.jpg", "shoe_4.jpg","shoe_4.jpg","shoe_4.jpg","shoe_4.jpg"]}],
+      "sizeStock": [
+        {
+          "id":"red",
+          "red": [{"size":"S", "stock":10}, {"size":"M", "stock":24}, {"size":"L", "stock":8}, {"size":"XL", "stock":94}]
+        },
+        {
+          "id":"blue",
+          "blue": [{"size":"S", "stock":120}, {"size":"M", "stock":254}, {"size":"L", "stock":887}, {"size":"XL", "stock":954}]
+        }, 
+        {
+          "id":"yellow",
+          "yellow": [{"size":"S", "stock":12}, {"size":"M", "stock":24}, {"size":"L", "stock":87}, {"size":"XL", "stock":54}]
+        }, 
+        {
+          "id":"black",
+          "black": [{"size":"S", "stock":70}, {"size":"M", "stock":2}, {"size":"L", "stock":5}, {"size":"XL", "stock":9}]
+        }
+      ],
+      
+      "Information": [
+        {"question":"Цвет", "answer": ["Крассный ", "Синий ", "Желтый ", "Черный "]},
+        {"question":"Материал подошвы обуви", "answer": ["натуральная кожа"]},
+        {"question":"Сезон", "answer": ["круглогодичный", "лето", "демисезон"]},
+        {"question":"Страна производства", "answer": ["Китай"]}
+      ],
+      "descriptions":{"descriptions": "Высокая качество - люкс ( со всеми комплектации- доп. шнурки и красивая коробка). Nike Air Jordan 1 Retro Low OG SP Travis Scott - это коллаборативная модель кроссовок, разработанная компанией Nike совместно с американским рэп-исполнителем Трэвисом Скоттом. Кроссовки имеют низкую кровь, что делает их идеальными для повседневного использования. Они выполнены в основном из качественной замши и кожи, что придает им прочность и долговечность. Дизайн кроссовок вдохновлен классической моделью Air Jordan 1 и отличается оригинальными деталями. Технические характеристики кроссовок включают в себя привычную амортизацию Nike Air для комфорта при ходьбе и подошву из прочной резины для надежного сцепления с поверхностью. Также стоит отметить, что коллаборационные модели, такие как Nike Air Jordan 1 Retro Low OG SP Travis Scott, часто являются коллекционными предметами и уникальными культовыми предметами гардероба для коллекционеров и поклонников музыканта. Их лимитированное выпуск и популярность делают их востребованными и дорогими."},
+      "nameSearch": "men_shoes"
+    },
+    {
+      "nameStor": "Inbazar",
+      "id": "SHOEС0012400",
+      "price": "200",
+      "count": 1,
+      "priceTotal": 200,
+      "salesman": "Ahmadov_Shahboz_16_02_2024",
+      "category": "men",
+      "type": "men_shoes",
+      "name": "Мужские кросовки",
+      "color": [
+        { "color": "Красный", "id": "red" },
+        { "color": "Синий", "id": "blue" },
+        { "color": "Желтый", "id": "yellow" },
+        { "color": "Черный", "id": "black" },
+        { "color": "Зеленый", "id": "green" },
+        { "color": "Фиолетовый", "id": "purple" },
+        { "color": "Оранжевый", "id": "orange" },
+        { "color": "Розовый", "id": "pink" },
+        { "color": "Белый", "id": "white" },
+        { "color": "Серый", "id": "gray" },
+        { "color": "Коричневый", "id": "brown" },
+        { "color": "Бирюзовый", "id": "turquoise" }
+      ],
+      "img": ["shoe_1.jpg", "shoe_2.jpg", "shoe_3.jpg", "shoe_4.jpg"],
+      "colorPprduct": [
+        {"id":"red", "colorImg":"shoe_1.jpg", "img":["shoe_1.jpg","shoe_2.jpg","shoe_3.jpg","shoe_4.jpg","shoe_1.jpg", "shoe_1.jpg","shoe_1.jpg","shoe_1.jpg","shoe_1.jpg"]},
+        {"id":"blue", "colorImg":"shoe_2.jpg", "img":["shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg"]},
+        {"id":"yellow", "colorImg":"shoe_3.jpg", "img":["shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg"]},
+        {"id":"black", "colorImg":"shoe_4.jpg", "img":["shoe_4.jpg", "shoe_4.jpg","shoe_4.jpg","shoe_4.jpg","shoe_4.jpg"]}],
+      "sizeStock": [
+        {
+          "id":"red",
+          "red": [{"size":"S", "stock":10}, {"size":"M", "stock":24}, {"size":"L", "stock":8}, {"size":"XL", "stock":94}]
+        },
+        {
+          "id":"blue",
+          "blue": [{"size":"S", "stock":120}, {"size":"M", "stock":254}, {"size":"L", "stock":887}, {"size":"XL", "stock":954}]
+        }, 
+        {
+          "id":"yellow",
+          "yellow": [{"size":"S", "stock":12}, {"size":"M", "stock":24}, {"size":"L", "stock":87}, {"size":"XL", "stock":54}]
+        }, 
+        {
+          "id":"black",
+          "black": [{"size":"S", "stock":70}, {"size":"M", "stock":2}, {"size":"L", "stock":5}, {"size":"XL", "stock":9}]
+        }
+      ],
+      
+      "Information": [
+        {"question":"Цвет", "answer": ["Крассный ", "Синий ", "Желтый ", "Черный "]},
+        {"question":"Материал подошвы обуви", "answer": ["натуральная кожа"]},
+        {"question":"Сезон", "answer": ["круглогодичный", "лето", "демисезон"]},
+        {"question":"Страна производства", "answer": ["Китай"]}
+      ],
+      "descriptions":{"descriptions": "Высокая качество - люкс ( со всеми комплектации- доп. шнурки и красивая коробка). Nike Air Jordan 1 Retro Low OG SP Travis Scott - это коллаборативная модель кроссовок, разработанная компанией Nike совместно с американским рэп-исполнителем Трэвисом Скоттом. Кроссовки имеют низкую кровь, что делает их идеальными для повседневного использования. Они выполнены в основном из качественной замши и кожи, что придает им прочность и долговечность. Дизайн кроссовок вдохновлен классической моделью Air Jordan 1 и отличается оригинальными деталями. Технические характеристики кроссовок включают в себя привычную амортизацию Nike Air для комфорта при ходьбе и подошву из прочной резины для надежного сцепления с поверхностью. Также стоит отметить, что коллаборационные модели, такие как Nike Air Jordan 1 Retro Low OG SP Travis Scott, часто являются коллекционными предметами и уникальными культовыми предметами гардероба для коллекционеров и поклонников музыканта. Их лимитированное выпуск и популярность делают их востребованными и дорогими."},
+      "nameSearch": "men_shoes"
+    },
+    {
+      "nameStor": "Inbazar",
+      "id": "SHOEС0012400",
+      "price": "200",
+      "count": 1,
+      "priceTotal": 200,
+      "salesman": "Ahmadov_Shahboz_16_02_2024",
+      "category": "men",
+      "type": "men_shoes",
+      "name": "Мужские кросовки",
+      "color": [
+        { "color": "Красный", "id": "red" },
+        { "color": "Синий", "id": "blue" },
+        { "color": "Желтый", "id": "yellow" },
+        { "color": "Черный", "id": "black" },
+        { "color": "Зеленый", "id": "green" },
+        { "color": "Фиолетовый", "id": "purple" },
+        { "color": "Оранжевый", "id": "orange" },
+        { "color": "Розовый", "id": "pink" },
+        { "color": "Белый", "id": "white" },
+        { "color": "Серый", "id": "gray" },
+        { "color": "Коричневый", "id": "brown" },
+        { "color": "Бирюзовый", "id": "turquoise" }
+      ],
+      "img": ["shoe_1.jpg", "shoe_2.jpg", "shoe_3.jpg", "shoe_4.jpg"],
+      "colorPprduct": [
+        {"id":"red", "colorImg":"shoe_1.jpg", "img":["shoe_1.jpg","shoe_2.jpg","shoe_3.jpg","shoe_4.jpg","shoe_1.jpg", "shoe_1.jpg","shoe_1.jpg","shoe_1.jpg","shoe_1.jpg"]},
+        {"id":"blue", "colorImg":"shoe_2.jpg", "img":["shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg"]},
+        {"id":"yellow", "colorImg":"shoe_3.jpg", "img":["shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg"]},
+        {"id":"black", "colorImg":"shoe_4.jpg", "img":["shoe_4.jpg", "shoe_4.jpg","shoe_4.jpg","shoe_4.jpg","shoe_4.jpg"]}],
+      "sizeStock": [
+        {
+          "id":"red",
+          "red": [{"size":"S", "stock":10}, {"size":"M", "stock":24}, {"size":"L", "stock":8}, {"size":"XL", "stock":94}]
+        },
+        {
+          "id":"blue",
+          "blue": [{"size":"S", "stock":120}, {"size":"M", "stock":254}, {"size":"L", "stock":887}, {"size":"XL", "stock":954}]
+        }, 
+        {
+          "id":"yellow",
+          "yellow": [{"size":"S", "stock":12}, {"size":"M", "stock":24}, {"size":"L", "stock":87}, {"size":"XL", "stock":54}]
+        }, 
+        {
+          "id":"black",
+          "black": [{"size":"S", "stock":70}, {"size":"M", "stock":2}, {"size":"L", "stock":5}, {"size":"XL", "stock":9}]
+        }
+      ],
+      
+      "Information": [
+        {"question":"Цвет", "answer": ["Крассный ", "Синий ", "Желтый ", "Черный "]},
+        {"question":"Материал подошвы обуви", "answer": ["натуральная кожа"]},
+        {"question":"Сезон", "answer": ["круглогодичный", "лето", "демисезон"]},
+        {"question":"Страна производства", "answer": ["Китай"]}
+      ],
+      "descriptions":{"descriptions": "Высокая качество - люкс ( со всеми комплектации- доп. шнурки и красивая коробка). Nike Air Jordan 1 Retro Low OG SP Travis Scott - это коллаборативная модель кроссовок, разработанная компанией Nike совместно с американским рэп-исполнителем Трэвисом Скоттом. Кроссовки имеют низкую кровь, что делает их идеальными для повседневного использования. Они выполнены в основном из качественной замши и кожи, что придает им прочность и долговечность. Дизайн кроссовок вдохновлен классической моделью Air Jordan 1 и отличается оригинальными деталями. Технические характеристики кроссовок включают в себя привычную амортизацию Nike Air для комфорта при ходьбе и подошву из прочной резины для надежного сцепления с поверхностью. Также стоит отметить, что коллаборационные модели, такие как Nike Air Jordan 1 Retro Low OG SP Travis Scott, часто являются коллекционными предметами и уникальными культовыми предметами гардероба для коллекционеров и поклонников музыканта. Их лимитированное выпуск и популярность делают их востребованными и дорогими."},
+      "nameSearch": "men_shoes"
+    },
+    {
+      "nameStor": "Inbazar",
+      "id": "SHOEС0012400",
+      "price": "200",
+      "count": 1,
+      "priceTotal": 200,
+      "salesman": "Ahmadov_Shahboz_16_02_2024",
+      "category": "men",
+      "type": "men_shoes",
+      "name": "Мужские кросовки",
+      "color": [
+        { "color": "Красный", "id": "red" },
+        { "color": "Синий", "id": "blue" },
+        { "color": "Желтый", "id": "yellow" },
+        { "color": "Черный", "id": "black" },
+        { "color": "Зеленый", "id": "green" },
+        { "color": "Фиолетовый", "id": "purple" },
+        { "color": "Оранжевый", "id": "orange" },
+        { "color": "Розовый", "id": "pink" },
+        { "color": "Белый", "id": "white" },
+        { "color": "Серый", "id": "gray" },
+        { "color": "Коричневый", "id": "brown" },
+        { "color": "Бирюзовый", "id": "turquoise" }
+      ],
+      "img": ["shoe_1.jpg", "shoe_2.jpg", "shoe_3.jpg", "shoe_4.jpg"],
+      "colorPprduct": [
+        {"id":"red", "colorImg":"shoe_1.jpg", "img":["shoe_1.jpg","shoe_2.jpg","shoe_3.jpg","shoe_4.jpg","shoe_1.jpg", "shoe_1.jpg","shoe_1.jpg","shoe_1.jpg","shoe_1.jpg"]},
+        {"id":"blue", "colorImg":"shoe_2.jpg", "img":["shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg"]},
+        {"id":"yellow", "colorImg":"shoe_3.jpg", "img":["shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg"]},
+        {"id":"black", "colorImg":"shoe_4.jpg", "img":["shoe_4.jpg", "shoe_4.jpg","shoe_4.jpg","shoe_4.jpg","shoe_4.jpg"]}],
+      "sizeStock": [
+        {
+          "id":"red",
+          "red": [{"size":"S", "stock":10}, {"size":"M", "stock":24}, {"size":"L", "stock":8}, {"size":"XL", "stock":94}]
+        },
+        {
+          "id":"blue",
+          "blue": [{"size":"S", "stock":120}, {"size":"M", "stock":254}, {"size":"L", "stock":887}, {"size":"XL", "stock":954}]
+        }, 
+        {
+          "id":"yellow",
+          "yellow": [{"size":"S", "stock":12}, {"size":"M", "stock":24}, {"size":"L", "stock":87}, {"size":"XL", "stock":54}]
+        }, 
+        {
+          "id":"black",
+          "black": [{"size":"S", "stock":70}, {"size":"M", "stock":2}, {"size":"L", "stock":5}, {"size":"XL", "stock":9}]
+        }
+      ],
+      
+      "Information": [
+        {"question":"Цвет", "answer": ["Крассный ", "Синий ", "Желтый ", "Черный "]},
+        {"question":"Материал подошвы обуви", "answer": ["натуральная кожа"]},
+        {"question":"Сезон", "answer": ["круглогодичный", "лето", "демисезон"]},
+        {"question":"Страна производства", "answer": ["Китай"]}
+      ],
+      "descriptions":{"descriptions": "Высокая качество - люкс ( со всеми комплектации- доп. шнурки и красивая коробка). Nike Air Jordan 1 Retro Low OG SP Travis Scott - это коллаборативная модель кроссовок, разработанная компанией Nike совместно с американским рэп-исполнителем Трэвисом Скоттом. Кроссовки имеют низкую кровь, что делает их идеальными для повседневного использования. Они выполнены в основном из качественной замши и кожи, что придает им прочность и долговечность. Дизайн кроссовок вдохновлен классической моделью Air Jordan 1 и отличается оригинальными деталями. Технические характеристики кроссовок включают в себя привычную амортизацию Nike Air для комфорта при ходьбе и подошву из прочной резины для надежного сцепления с поверхностью. Также стоит отметить, что коллаборационные модели, такие как Nike Air Jordan 1 Retro Low OG SP Travis Scott, часто являются коллекционными предметами и уникальными культовыми предметами гардероба для коллекционеров и поклонников музыканта. Их лимитированное выпуск и популярность делают их востребованными и дорогими."},
+      "nameSearch": "men_shoes"
+    },
+    {
+      "nameStor": "Inbazar",
+      "id": "SHOEС0012400",
+      "price": "200",
+      "count": 1,
+      "priceTotal": 200,
+      "salesman": "Ahmadov_Shahboz_16_02_2024",
+      "category": "men",
+      "type": "men_shoes",
+      "name": "Мужские кросовки",
+      "color": [
+        { "color": "Красный", "id": "red" },
+        { "color": "Синий", "id": "blue" },
+        { "color": "Желтый", "id": "yellow" },
+        { "color": "Черный", "id": "black" },
+        { "color": "Зеленый", "id": "green" },
+        { "color": "Фиолетовый", "id": "purple" },
+        { "color": "Оранжевый", "id": "orange" },
+        { "color": "Розовый", "id": "pink" },
+        { "color": "Белый", "id": "white" },
+        { "color": "Серый", "id": "gray" },
+        { "color": "Коричневый", "id": "brown" },
+        { "color": "Бирюзовый", "id": "turquoise" }
+      ],
+      "img": ["shoe_1.jpg", "shoe_2.jpg", "shoe_3.jpg", "shoe_4.jpg"],
+      "colorPprduct": [
+        {"id":"red", "colorImg":"shoe_1.jpg", "img":["shoe_1.jpg","shoe_2.jpg","shoe_3.jpg","shoe_4.jpg","shoe_1.jpg", "shoe_1.jpg","shoe_1.jpg","shoe_1.jpg","shoe_1.jpg"]},
+        {"id":"blue", "colorImg":"shoe_2.jpg", "img":["shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg"]},
+        {"id":"yellow", "colorImg":"shoe_3.jpg", "img":["shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg"]},
+        {"id":"black", "colorImg":"shoe_4.jpg", "img":["shoe_4.jpg", "shoe_4.jpg","shoe_4.jpg","shoe_4.jpg","shoe_4.jpg"]}],
+      "sizeStock": [
+        {
+          "id":"red",
+          "red": [{"size":"S", "stock":10}, {"size":"M", "stock":24}, {"size":"L", "stock":8}, {"size":"XL", "stock":94}]
+        },
+        {
+          "id":"blue",
+          "blue": [{"size":"S", "stock":120}, {"size":"M", "stock":254}, {"size":"L", "stock":887}, {"size":"XL", "stock":954}]
+        }, 
+        {
+          "id":"yellow",
+          "yellow": [{"size":"S", "stock":12}, {"size":"M", "stock":24}, {"size":"L", "stock":87}, {"size":"XL", "stock":54}]
+        }, 
+        {
+          "id":"black",
+          "black": [{"size":"S", "stock":70}, {"size":"M", "stock":2}, {"size":"L", "stock":5}, {"size":"XL", "stock":9}]
+        }
+      ],
+      
+      "Information": [
+        {"question":"Цвет", "answer": ["Крассный ", "Синий ", "Желтый ", "Черный "]},
+        {"question":"Материал подошвы обуви", "answer": ["натуральная кожа"]},
+        {"question":"Сезон", "answer": ["круглогодичный", "лето", "демисезон"]},
+        {"question":"Страна производства", "answer": ["Китай"]}
+      ],
+      "descriptions":{"descriptions": "Высокая качество - люкс ( со всеми комплектации- доп. шнурки и красивая коробка). Nike Air Jordan 1 Retro Low OG SP Travis Scott - это коллаборативная модель кроссовок, разработанная компанией Nike совместно с американским рэп-исполнителем Трэвисом Скоттом. Кроссовки имеют низкую кровь, что делает их идеальными для повседневного использования. Они выполнены в основном из качественной замши и кожи, что придает им прочность и долговечность. Дизайн кроссовок вдохновлен классической моделью Air Jordan 1 и отличается оригинальными деталями. Технические характеристики кроссовок включают в себя привычную амортизацию Nike Air для комфорта при ходьбе и подошву из прочной резины для надежного сцепления с поверхностью. Также стоит отметить, что коллаборационные модели, такие как Nike Air Jordan 1 Retro Low OG SP Travis Scott, часто являются коллекционными предметами и уникальными культовыми предметами гардероба для коллекционеров и поклонников музыканта. Их лимитированное выпуск и популярность делают их востребованными и дорогими."},
+      "nameSearch": "men_shoes"
+    },
+    {
+      "nameStor": "Inbazar",
+      "id": "SHOEС0012400",
+      "price": "200",
+      "count": 1,
+      "priceTotal": 200,
+      "salesman": "Ahmadov_Shahboz_16_02_2024",
+      "category": "men",
+      "type": "men_shoes",
+      "name": "Мужские кросовки",
+      "color": [
+        { "color": "Красный", "id": "red" },
+        { "color": "Синий", "id": "blue" },
+        { "color": "Желтый", "id": "yellow" },
+        { "color": "Черный", "id": "black" },
+        { "color": "Зеленый", "id": "green" },
+        { "color": "Фиолетовый", "id": "purple" },
+        { "color": "Оранжевый", "id": "orange" },
+        { "color": "Розовый", "id": "pink" },
+        { "color": "Белый", "id": "white" },
+        { "color": "Серый", "id": "gray" },
+        { "color": "Коричневый", "id": "brown" },
+        { "color": "Бирюзовый", "id": "turquoise" }
+      ],
+      "img": ["shoe_1.jpg", "shoe_2.jpg", "shoe_3.jpg", "shoe_4.jpg"],
+      "colorPprduct": [
+        {"id":"red", "colorImg":"shoe_1.jpg", "img":["shoe_1.jpg","shoe_2.jpg","shoe_3.jpg","shoe_4.jpg","shoe_1.jpg", "shoe_1.jpg","shoe_1.jpg","shoe_1.jpg","shoe_1.jpg"]},
+        {"id":"blue", "colorImg":"shoe_2.jpg", "img":["shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg","shoe_2.jpg"]},
+        {"id":"yellow", "colorImg":"shoe_3.jpg", "img":["shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg","shoe_3.jpg"]},
+        {"id":"black", "colorImg":"shoe_4.jpg", "img":["shoe_4.jpg", "shoe_4.jpg","shoe_4.jpg","shoe_4.jpg","shoe_4.jpg"]}],
+      "sizeStock": [
+        {
+          "id":"red",
+          "red": [{"size":"S", "stock":10}, {"size":"M", "stock":24}, {"size":"L", "stock":8}, {"size":"XL", "stock":94}]
+        },
+        {
+          "id":"blue",
+          "blue": [{"size":"S", "stock":120}, {"size":"M", "stock":254}, {"size":"L", "stock":887}, {"size":"XL", "stock":954}]
+        }, 
+        {
+          "id":"yellow",
+          "yellow": [{"size":"S", "stock":12}, {"size":"M", "stock":24}, {"size":"L", "stock":87}, {"size":"XL", "stock":54}]
+        }, 
+        {
+          "id":"black",
+          "black": [{"size":"S", "stock":70}, {"size":"M", "stock":2}, {"size":"L", "stock":5}, {"size":"XL", "stock":9}]
+        }
+      ],
+      
+      "Information": [
+        {"question":"Цвет", "answer": ["Крассный ", "Синий ", "Желтый ", "Черный "]},
+        {"question":"Материал подошвы обуви", "answer": ["натуральная кожа"]},
+        {"question":"Сезон", "answer": ["круглогодичный", "лето", "демисезон"]},
+        {"question":"Страна производства", "answer": ["Китай"]}
+      ],
+      "descriptions":{"descriptions": "Высокая качество - люкс ( со всеми комплектации- доп. шнурки и красивая коробка). Nike Air Jordan 1 Retro Low OG SP Travis Scott - это коллаборативная модель кроссовок, разработанная компанией Nike совместно с американским рэп-исполнителем Трэвисом Скоттом. Кроссовки имеют низкую кровь, что делает их идеальными для повседневного использования. Они выполнены в основном из качественной замши и кожи, что придает им прочность и долговечность. Дизайн кроссовок вдохновлен классической моделью Air Jordan 1 и отличается оригинальными деталями. Технические характеристики кроссовок включают в себя привычную амортизацию Nike Air для комфорта при ходьбе и подошву из прочной резины для надежного сцепления с поверхностью. Также стоит отметить, что коллаборационные модели, такие как Nike Air Jordan 1 Retro Low OG SP Travis Scott, часто являются коллекционными предметами и уникальными культовыми предметами гардероба для коллекционеров и поклонников музыканта. Их лимитированное выпуск и популярность делают их востребованными и дорогими."},
+      "nameSearch": "men_shoes"
+    },
+    {
       "id": "SHOEС0012401",
       "price": "300",
       "count": 1,

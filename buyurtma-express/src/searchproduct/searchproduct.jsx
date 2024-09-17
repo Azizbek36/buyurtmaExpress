@@ -43,9 +43,17 @@ function SearchProduct() {
     };
     return (
         <div className='container'>
-            {allcard.filter(e => e.name.toLowerCase().startsWith(postQuerty.toLowerCase())).map((el, index) => (
-                <div key={index} className='back-history'><HiArrowLeft /> <NavLink to={"/"}>Главная</NavLink> / <NavLink>{el.name}</NavLink></div>
-            ))}
+            {/* {[...new Set(allcard
+                .filter(e => e.name.toLowerCase().startsWith(postQuerty.toLowerCase()))
+                .map(el => el.name.toLowerCase()))]
+                .map((name, index) => (
+                    <div key={index} className='back-history'>
+                        <HiArrowLeft />
+                        <NavLink to={"/"}>Главная</NavLink> /
+                        <NavLink>{name}</NavLink>
+                    </div>
+                ))
+            } */}
             <div className="cards">
                 {allcard.filter(e => e.name.toLowerCase().startsWith(postQuerty.toLowerCase())).map(el => (
                     <CardItem key={el.id} el={el} />

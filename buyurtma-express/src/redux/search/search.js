@@ -13,7 +13,8 @@ const searchSlice = createSlice({
     reducers: {
         //прередаеот URL товарай котрый нужно найти
         nameSearchURL: (state, action) => {
-            state.postQuerty = action.payload;
+                state.postQuerty = action.payload;
+            
         },
         // предаеот филтровуную имя товара который похож на тот который вели в search input поиска
         addSearchCards: (state, action) => {
@@ -23,7 +24,7 @@ const searchSlice = createSlice({
         setisOpen: (state, action) => {
             state.isOpen = action.payload
         },
-   
+
 
     },
 });

@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHouse, faCartShopping, faBars, faUser } from '@fortawesome/free-solid-svg-icons';
-import { GoX } from "react-icons/go";
 import './header.css';
 import React, { useState, useEffect } from 'react';
 import { NavLink, useSearchParams, useNavigate, useLocation } from 'react-router-dom'
@@ -24,7 +23,6 @@ function Header() {
     dispatch(cloussubmenu(false))
     dispatch(setopenburger(item))
   }
-
   //поисковик
   const allcard = useSelector(state => state.allcard.cardItem);
   const isOpen = useSelector(state => state.search.isOpen)
