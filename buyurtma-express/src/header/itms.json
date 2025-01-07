@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Женшинам",
+        "id": "woman",
+        "children": [
+            {
+                "name": "Обувь",
+                "id": "woman_shoes"
+            },
+            {
+                "name": "Одежда",
+                "id": "womens_clothing"
+            },
+            {
+                "name": "Красота",
+                "id": "cosmetics"
+            }
+        ]
+    },
+    {
+        "name": "Детям",
+        "id": "baby",
+        "children": [
+            {
+                "name": "Игрушки",
+                "id": "toy"
+            },
+            {
+                "name": "Детская одежда",
+                "id": "baby_clothes"
+            },
+            {
+                "name": "Товары для младенцев",
+                "id": "for_babies"
+            }
+        ]
+    },
+    {
+        "name": "Мужчинам",
+        "id": "men",
+        "children": [
+            {
+                "name": "Мужская одежда",
+                "id": "men_clous"
+            },
+            {
+                "name": "Мужская обувь",
+                "id": "men_shoes"
+            },
+            {
+                "name": "Аксессуары для мужчин",
+                "id": "for_men"
+            }
+        ]
+    },
+    {
+        "name": "Дом",
+        "id": "house",
+        "children": [
+            {
+                "name": "Мебель",
+                "id": "furniture"
+            },
+            {
+                "name": "Кухонные приборы",
+                "id": "kitchen_urniture"
+            },
+            {
+                "name": "Бытовая техника",
+                "id": "Appliances"
+            }
+        ]
+    }
+]
